@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Iphone</title>
+</head>
+<body>
+    <header>
+        <div class="menu-logo">
+            <img class="logo" src="./images/logo.png">
+        </div>
+        <nav class="menu-info">
+            <ul>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">Ipad</a></li>
+                <li><a href="#">Iphone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">Airpods</a></li>
+                <li><a href="#">Só na Apple</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="content">
+            <div class="circle"></div>
+            <div class="main-txt">
+                    <img class="img-iphone" src="./images/iphone13.png" alt="iphone13">
+                    <h3 class="title-iphone">Seu novo superpoder</h3>
+                    <p>Chip com velocidade. Um aumento notável na duração da bateria. E novos
+                    recursos de foto e vídeo. <br> No Iphone 13, você faz coisas que nunca pôde. E ainda vem em tamanhos diferentes.</p>
+                    <h5 class="price">A partir de R$6.699</h5>
+                    <a href="#" class="btn-direcionado"><button class="btn">Comprar</button></a>
+                <div class="txt">    
+                    <h4>Escolha sua cor favorita:</h4>
+                </div>
+                <div class="color-iphone">
+                    <span class="blue" onclick="mudarCor('./images/blue.png'); corCirculo('rgb(35, 98, 140)')"></span>
+                    <span class="purple" onclick="mudarCor('./images/pink.png'); corCirculo('rgb(218, 155, 218)')" ></span>
+                    <span class="white" onclick="mudarCor('./images/white.png'); corCirculo('rgb(231, 228, 228)')"></span>
+                    <span class="green" onclick="mudarCor('./images/green.png'); corCirculo('green')"></span>
+                    <span class="black" onclick="mudarCor('./images/black.png'); corCirculo('black')"></span>
+                    <span class="red" onclick="mudarCor('./images/red.png'); corCirculo('red')"></span>
+                </div>
+            </div>    
+            <div class="btn-colors-img">
+                <img class="img-blue" src="./images/blue.png">
+            </div>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="/script.js"></script>
+
+</body>
+</html>

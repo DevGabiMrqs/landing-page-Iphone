@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+header {
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-logo {
+    margin: 5px;
+    padding-left: 88px;
+}
+
+.logo {
+    width: 4.5rem;
+    padding-top: 2px;
+}
+
+.menu-info ul {
+    display: flex;
+    flex-direction: row;
+    padding:10px
+}
+
+.menu-info ul li {
+    padding: 25px;
+}
+
+.menu-info ul li a:hover {
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+
+.menu-info ul li a {
+    color: rgb(149, 149, 149);
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.img-iphone {
+    width: 16rem;
+    padding-bottom: 30px;
+}
+
+.content {
+    margin: 250px;
+}
+
+.title-iphone {
+    font-size: 65px ;
+    padding-bottom: 30px;
+}
+
+p {
+    font-size: 1rem;
+    padding-bottom: 30px;
+}
+
+.price {
+    font-size: 15px;
+    color: grey;
+    padding-bottom: 30px;
+}
+
+.btn {
+    padding: 10px 25px;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgb(13, 117, 214);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    opacity: .75;
+}
+
+.btn-colors-img {
+    padding: 48px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-blue {
+    width: 35rem;
+    transform: rotate(-10deg);
+}
+
+main section {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.main-txt .color-iphone {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    gap: 10px;
+}
+
+
+span {
+    margin: 4px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px #888;
+}
+
+
+.green{
+    background-color: green;
+}
+
+.blue {
+    background-color:rgb(35, 98, 140);
+}
+
+.white {
+    background-color: rgb(231, 228, 228);
+}
+
+.black {
+    background-color: black;
+}
+
+.purple {
+    background-color: rgb(218, 155, 218);
+}
+
+.red {
+    background-color: red;
+}
+
+.circle {
+    background-color: rgb(35, 98, 140);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(900px at right 1000px);
+}
